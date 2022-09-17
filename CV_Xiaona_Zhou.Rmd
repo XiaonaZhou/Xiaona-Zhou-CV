@@ -1,0 +1,336 @@
+---
+name: Xiaona Zhou
+# position: "Math tutor"
+# aboutme: Aspiring data scientist, data analyst, math tutor 
+address: "Virginia, 24060"
+phone: +1 917 833 7873
+email: "Xzhou1@vt.edu"
+#twitter: DiogoMCamacho
+web: https://xiaonazhou.github.io/
+github: XiaonaZhou
+linkedin: xnz
+headcolor: 414141
+date: "`r format(Sys.time(), '%B %Y')`"
+header-includes:
+   - \usepackage{hyperref}
+   - \hypersetup{colorlinks=true,linkcolor=violet,filecolor=violet,urlcolor=violet}
+output: 
+  vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyr)
+library(dplyr)
+library(readr)
+library(glue)
+library(tibble)
+library(lubridate)
+library(here)
+library(scales)
+```
+
+
+# Education & Affiliations
+
+**<span style="font-size:1em;">Virginia Tech</span>** \hfill _Blacksburg, VA_
+
+Ph.D. in Computer Science & Applications \hfill _08/2022-present_
+
+**<span style="font-size:1em;">Georgia Institute of Technology</span>** \hfill _Online Program_  
+Master's in Analytics, GPA: 4.0/4.0 \hfill _August 2021-December 2021(Incomplete)_
+
+**<span style="font-size:1em;">New York City College of Technology, The City University of New York</span>** \hfill _Brooklyn, NY_  
+B.S., Applied Mathematics - Financial Science concentration, GPA: 4.0/4.0, [Salutatorian](https://www.citytech.cuny.edu/news/?id=1511) \hfill _June 2021_
+
+A.S., Computer Science, GPA: 4.0/4.0 \hfill _June 2021_
+
+ - Relevant courses: Data Structures and Algorithms, Discrete Structure 2, [Modeling with R I&II](https://drive.google.com/drive/folders/1YuHKqZ8GIFzBrPmpT1h5heuAEHXLdvb-?usp=sharing), C++ Programming I, C++ Programming II,  [Computational Science](https://github.com/XiaonaZhou/Mini_Projects_with_Python), Database Systems Fundamentals, Design of Microcomputer Databases
+
+
+**<span style="font-size:1em;">Data Analytics Micro-credential program, CUNY</span>**  \hfill _January 2021_
+
+- 100-hour micro-credential in data analytics. Reviewed statistics and basics of Python for data analytics, and dived deep into data wrangling and visualization with *numpy*, *pandas*, *matplotlib*, and *seaborn*. 
+
+- Learned various ML methods, such as K-Nearest Neighbors, decision trees, and random forest. Learned SQL and Tableau for data wrangling and visualization, and worked on various projects for each topic. [See coursework on Github](https://github.com/XiaonaZhou/data_analytics_2) 
+
+**<span style="font-size:1em;">Microsoft Research Data Science Summer School</span>** \hfill _June 2020_
+
+ - One of eight students selected to participate in Data Science Summer School taught by leading researchers at Microsoft over four weeks (about 160 hours).
+ - Learned the basics of command line and GitHub, data reshaping, data analysis and visualization, and regression techniques in R. Studied statistics in data science and topics related to regression, such as overfitting, generalization and model complexity. Built and tested a model for predicting Citi Bike trips.
+ 
+ - Worked on a [project](https://rawcdn.githack.com/msr-ds3/predicting-the-present-2020-group-1/c5aac1011fd8531e7d235a04f60a296e4c87311c/ptp/Replicate_Predict_the_Present.html) to reproduce and extend the published paper "Predicting the Present with Google Trends", and a [flexdashboard](https://xiaonazhou.shinyapps.io/visualizing_diff_models/) for evaluating and visualizing different models. See [GitHub folder with coursework](https://github.com/XiaonaZhou/coursework). 
+
+**SIAM(Society for Industrial and Applied Mathematics) Student Chapter, President** \hfill Spring 2019 – Spring 2021
+
+**CUNY Research Scholar** \hfill Spring 2019 – Spring 2021
+
+**National Science Foundation (NSF) Scholar** 	\hfill Fall 2018 – Spring 2021
+
+**New York City College of Technology Emerging Scholar** \hfill Spring 2019 – Spring 2021
+
+**New York City College of Technology Honors Scholar** \hfill  Fall 2018 – Spring 2021
+
+
+
+
+# Skills
+
+## Computer/Programming Skills
+
+R, Python, R Markdown, Shiny (R), C++, MATLAB, Maple, SQL, Tableau, Git, Bash, \LaTeX\, Microsoft Office Suite, G Suite, WordPress. 
+
+## Languages
+
+English (fluent), Mandarin (native). 
+
+# Mentored Research 
+
+**Edge detection and convolutional neural networks** \hfill Spring 2021 
+
+Mentors: Professor Boyan Kostadinov, Department of Mathematics, NYCCT
+
+
+- Studied how edge detection could be done with convolution operation. Rewrote the algorithm from scratch in R and compared edge images resulting from different filters, such as Sobel filter and Scharr filter. 
+
+- Studied the five steps procedure in Canny Edge Detection in detail and rewrote the code from scratch in R again for a better edge detection outcome.
+
+- Wrote a Python module that implements a face recognition system with FaceNet. [link](https://colab.research.google.com/drive/1Laasy9nbfM7ny2fxAsLKUBx1WsdgBl39?usp=sharing#scrollTo=iS2bYgu8wEqu)
+
+- Presented at CUNYCWiC (CUNY CELEBRATES WOMEN IN COMPUTING) conference, MAA New York Section virtual meeting, and NYCCT semi-annual Emerging Scholars poster session. See [presentation notebook](https://raw.githack.com/XiaonaZhou/Edge_Detection_From_Scratch/main/Edge_detection_presention/edge_detection_presentation.html) and [poster](https://drive.google.com/file/d/1ElknyQ8Mz_PBM8SPqxRt37ByutEwocV_/view?usp=sharing).
+
+**Data analysis and visualizations of drosophila behavioral phases**  \hfill Fall 2020 -    Spring 2021
+
+Mentors: Professor Boyan Kostadinov, Department of Mathematics, NYCCT
+
+ The objective of the project was to analyze drosophila behavioral rhythmicity under light-dark cycles for neuroscience research (collaborative work with Professor Maria de la Paz Fernandez and her Neurobiology Lab at Barnard College of Columbia University and Professor Orie Shafer and the Shafel Lab at the CUNY Advanced Science Research Center). 
+ 
+- We created and implemented algorithms that compute and visualize drosophila behavioral phases, the onset and offset of behavioral phases, the trend lines of mid‑day fly activity, as well as the circular plot and rose diagram of the dataset. 
+
+- Developed a [Shiny App](https://xiaonazhou.shinyapps.io/Drosophila_Behavioral_Phases_Draft_1/) that implements all data analysis and visualizations.
+ 
+
+- Presented at the NYCCT semi-annual Emerging Scholars poster session in December 2020, and the MAA Undergraduate Student Poster Session at the Joint Mathematics Meetings (JMM) in January 2021. [See poster](https://academicworks.cuny.edu/ny_pubs/650/).
+- Presented at Women in Data Science (WiDS Cambridge is organized by Harvard, MIT, Microsoft Research New England, and the Board Institute) conference in March 2021. 
+
+
+
+
+**An In-depth Look at p-adic Numbers**  \hfill Spring 2020
+
+Mentor: Professor Satyanand Singh, Department of Mathematics, NYCCT
+
+- Studied the $p$-adic norm representation of real numbers, which is defined as $Q_p = \{\sum_{j=m}^{\infty }a_j p^j: a_j  \in \mathbb{D}_p, m\in\mathbb{Z}, a_m\neq 0\} \cup \{0\}$, where $p$ is a prime number. 
+
+- Explored properties of the $p$-adics by using examples. Proved that $\sqrt{6},i \in \mathbb{Q}_5$ and $\sqrt{2} \in \mathbb{Q}_7$. 
+
+- Presented at the MAA Metro NY Conference, and the NYCCT semi-annual Poster Session. [See poster](https://academicworks.cuny.edu/ny_pubs/573/).
+
+
+**An enticing study of prime numbers of the shape $p=x^2+y^2$** 	\hfill              Fall 2019
+
+Mentor: Professor Satyanand Singh, Department of Mathematics, NYCCT
+
+ - Studied and proved important results on primes of the shape $x^2+y^2$ using number theoretic techniques. Our analysis involves maps, actions over sets, fixed points and involutions.
+
+ - Presented at the MAA-NJ/MAA-Metro-NY Joint Fall 2019 Meeting, and the NYCCT semi-annual Poster Session. [See  poster](https://academicworks.cuny.edu/ny_pubs/558/).
+ 
+ **Kinetic Study of Amine Cured Epoxy Resins** \hfill Spring 2019      
+
+Mentor: Professor Urmi Ghosh-Dastidar, Department of Mathematics, NYCCT 
+
+- Using MATLAB, a series of mathematical computations were performed on raw data to obtain the desired graph. A kinetic model, with R^2 ranged from 0.917 to 0.988, was found by using nonlinear regression techniques. 
+
+- Presented at the NYCCT semi-annual Poster Session and won second place for *Best Poster Award*. This project was also presented at the CUNY Celebrates Women in Computing conference in 2019. [See poster](https://docs.google.com/presentation/d/1WYtRRmz1P8Fw_JtUYFZqsjmlU-rX_Bas/edit?usp=sharing&ouid=105118086197558488176&rtpof=true&sd=true).
+ 
+ **Simulation as a Predictor in Probability**  \hfill Spring 2019
+
+Mentor: Professor Satyanand Singh, Department of Mathematics, NYCCT
+
+ - Using MATLAB, bivariate normal data were randomly generated. Resulting data from a linear transformation was analyzed by using contour and 3D plots. The relationship between the two data sets was determined. 
+
+ - Presented at the MAA Metro NY Annual conference, the CUNY Celebrates Women in Computing conference, and the NYCCT semi-annual Poster Session. [See poster](https://academicworks.cuny.edu/ny_pubs/407/).
+ 
+
+**Validation of a Lottery** \hfill Fall 2018
+
+Mentor: Professor Jonathan Natov, Department of Mathematics, NYCCT
+
+- Analyzed New York Win 4 lottery over a period of 20 years, using of R and MATLAB, to assess fairness. 
+- Developed a mathematical model that describes the Lucky Sum game by using nonlinear regression techniques. 
+
+- Presented at the NYCCT semi-annual Poster Session, at the 2019 NYC Women in Computing conference in Lake George, NY, and at the 2019 Mathematical Association of America (MAA) MathFest. [See presentaion slides](https://xiaonazhou.shinyapps.io/NYC_Lottery_Presentation/ )  and [ poster](https://academicworks.cuny.edu/ny_pubs/408/).
+
+**Fractals and the Geometry of Matrix Operators**  \hfill Fall 2018
+
+Mentor: Professor Samar El Hitti, Department of Mathematics, NYCCT
+
+ - Studied the properties of fractals and how certain fractals can be generated by using introductory linear algebra techniques. 
+
+ - Applied classes of linear transformations to describe and generate fractals in the Euclidean plane. Different examples of fractals were generated using MATLAB. 
+
+- Presented at the NYCCT semi-annual Poster Session. [See  poster](https://academicworks.cuny.edu/ny_pubs/333/) 
+
+
+
+# Programming Courses 
+
+- *Machine Learning*
+
+1. [*Build Random Forests in R with Azure ML Studio*](https://www.coursera.org/account/accomplishments/verify/9JJ748MAYYWP) 
+2. [*Unsupervised Learning in R*](https://www.datacamp.com/statement-of-accomplishment/course/8bcb3c12a16036f6fb8ecb81d08fc1bff01298f2) 
+3. [*Supervised Learning in R: Regression*](https://www.datacamp.com/statement-of-accomplishment/course/d78efd07d73fabf9ddfbd028d0f7e6292168bf1c) 
+4. [*Supervised Learning in R: Classication*](https://www.datacamp.com/statement-of-accomplishment/course/0ae89f81aedb0bdb460ed0c96c38f9c5f4ca2603) 
+5. [*Cluster Analysis in R*](https://www.datacamp.com/statement-of-accomplishment/course/fa067acbca710c896dbd535780a9a657788e3eab) 
+6. [*Intro to Machine Learning*](https://www.kaggle.com/learn/certification/xiaonazhou/intro-to-machine-learning) 
+
+- *Data Science and R*
+
+1. [*Data Scientist with R Track*](https://www.datacamp.com/statement-of-accomplishment/track/ea9d781f78c2d0d1b9c2d218f845a25d97b3bc30) 
+2. [*Correlation and Regression in R*](https://www.datacamp.com/statement-of-accomplishment/course/d0bdc79daa1a949b206d9527c58cbab5953d3288)
+3. [*Intermediate Data Visualization with ggplot2*](https://www.datacamp.com/statement-of-accomplishment/course/24aac7782b3587c42616877dff74365d6b7f80a1) 
+4. [*Intermediate Importing Data in R*](https://www.datacamp.com/statement-of-accomplishment/course/3600215fb14922c616225357f4caa50657e740ef) 
+5. [*Building Dashboards with flexdashboard*](https://www.datacamp.com/statement-of-accomplishment/course/21010a77483cbddf381de9cb726b7d07e7deb339) 
+6. [*Joining Data with dplyr*](https://www.datacamp.com/statement-of-accomplishment/course/0afab08f0b5d7e10a65536fcbf7e413fb3d546a6) 
+7. [*Data Manipulation with dplyr*](https://www.datacamp.com/statement-of-accomplishment/course/597f931dc38829fc21a2b5d4d9bf91e66d37c388) 
+8. [*Case Study: Exploratory Data Analysis in R*](https://www.datacamp.com/statement-of-accomplishment/course/54ac2c8992e46e08e63b6443b8e5995cc8a6b18d) 
+9. [*Exploratory Data Analysis in R*](https://www.datacamp.com/statement-of-accomplishment/course/4d1d0be7f8892e95d6db8f4d9f7926a6a1063828) 
+10. [*Working with Dates and Times in R*](https://www.datacamp.com/statement-of-accomplishment/course/8807adffadaded43e41fffbeea5ab301f60d05c6) 
+11. [*Reporting with R Markdown*](https://www.datacamp.com/statement-of-accomplishment/course/51c6538839a519d3e95426aaa6bcb73e023d1424) 
+12. [*Data Visualization with ggplot2 (Part 1)*](https://www.datacamp.com/statement-of-accomplishment/course/8b0b888f9a8b4dd9a70b1db105f45e337ca32eb5) 
+13. [*Introduction to Data Visualization with ggplot2*](https://www.datacamp.com/statement-of-accomplishment/course/0312a7fa61d34d2bc12c4868489a942c9129d592) 
+14. [*Introduction to Importing Data in R*](https://www.datacamp.com/statement-of-accomplishment/course/2b4ea09c7dc74ebad27a52ee6f32a72338465935) 
+15. [*Data Cleaning in R*](https://www.datacamp.com/statement-of-accomplishment/course/7f8bb544801f71e41feb340dc64e320773ef2cf1) 
+16. [*Intermediate R: Practice*](https://www.datacamp.com/statement-of-accomplishment/course/3cd1a1ec726c6ab1b18efd6bf337b48961455cb2) 
+17. [*Introduction to Writing Functions in R*](https://www.datacamp.com/statement-of-accomplishment/course/0edfb1ef0187b38517c23f3a7520160690538eb8) 
+18. [*Introduction to R*](https://www.datacamp.com/statement-of-accomplishment/course/eca2f831f096b56e3ea2d4c045f8429bdfa33f7a?share=true) 
+
+19. [*Intermediate R*](https://www.datacamp.com/statement-of-accomplishment/course/11afe97487fa63c128144ff7c48fad2bae312ff8) 
+20. [*Introduction to the Tidyverse*](https://www.datacamp.com/statement-of-accomplishment/course/71abcceb5a0335d3e04e09a6818bba56e18f4287) 
+21. [*Working with the RStudio IDE (Part 1)*](https://www.datacamp.com/statement-of-accomplishment/course/8abc1d9000e606824808dc573e32863f691548ba?share=true) 
+22. [*Cleaning Data in R*](https://www.datacamp.com/statement-of-accomplishment/course/ed07a129545140b8b1802acaf85b97bc9cf57395) 
+
+- *Data Science and Python *
+
+1. Code in Place (A free, human-centric, intro-to-coding course in the time of COVID-19 by Stanford University.) 
+1. [Data Types for Data Science in Python](https://www.datacamp.com/statement-of-accomplishment/course/e7e51220834957066c33a3a3ecd9d1a4d29e49bb) 
+1. [Winning a Kaggle Competition in Python](https://www.datacamp.com/statement-of-accomplishment/course/00a7f602dc75af76ac6d26029d925db77a45b57b) 
+1. [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/statement-of-accomplishment/course/fa678aee6143cebf67bb8eefa4806358811e0d84) 
+2. [Python Data Science Toolbox (Part 1)](https://www.datacamp.com/statement-of-accomplishment/course/ec6af3172dc1bce412c66940037721087f46b228) 
+3. [*Intermediate Python*](https://www.datacamp.com/statement-of-accomplishment/course/ba1c1e0096810a9cfec6ed7e2bee999d1f651df9) 
+4. [*Introduction to Data Science in Python*](https://www.datacamp.com/statement-of-accomplishment/course/5d5fd22e9182fc9a321005f3110488ad045cc1f9?share=true) 
+5. [*Introduction to Python*](https://www.datacamp.com/statement-of-accomplishment/course/9a1cc2205fe5006a002561fa5fc7ce3a50e536af?share=true) 
+6. [*Compose and Program Music in Python using Earsketch*](https://coursera.org/share/b00033fa61c2b60010d73ea16de4e9db) 
+7. [*Python for R Users*](https://www.datacamp.com/statement-of-accomplishment/course/cf12804c58f6f1c283aa3839509f210fca14c43e)
+
+
+
+- *Tableau, C++, SQL, Bash, Git*
+
+1. [Introduction to Tableau](https://www.datacamp.com/statement-of-accomplishment/course/9a54dc2c1f6ee5fa8353ce204cc7b7e734a2b4ea) 
+3. [*Introduction to Computational Science*](https://github.com/XiaonaZhou/Mini_Projects_with_Python) (school course) 
+4. [*C++ Tutorial course*](https://www.sololearn.com/Certificate/1051-11545144/pdf/) 
+5. [*SQL Fundamentals course*](https://www.sololearn.com/Certificate/1060-11545144/pdf/) 
+6. [*Introduction to Bash Scripting*](https://www.datacamp.com/statement-of-accomplishment/course/11cc4998167bc00919d8dceaba614a53dd37525b) 
+7. [*Introduction to Shell*](https://www.datacamp.com/statement-of-accomplishment/course/93778e01246f73c3bdf7dc099b5342a11a1a7f56) 
+8. [*Introduction to Git*](https://www.datacamp.com/statement-of-accomplishment/course/cfa2117899dd5a61661e93259cba2c16906114c1) 
+
+# Other Activities
+
+- [CINA Minority Serving Institutions Summer Workshop](https://cina.gmu.edu/msi/) \hfill August 2021
+
+- Women in Data Science (WiDS) Datathon Participant \hfill February 2021
+
+- [BACK ON TRACK HACK Participant](https://www.youracclaim.com/badges/af07cbff-7037-4c9f-8fdb-3c2760a99f8d/linked_in) \hfill July 2020
+
+- [SCUDEM IV 2019](https://www.simiode.org/scudem/2019): Won meritorious award \hfill Fall 2019
+
+- CUNY Math Challenge: Participated in second/final round \hfill Spring 2019
+
+
+# Work Experience
+
+*Graduate Teaching Assistant*, Virginia Tech \hfill 08/2022-present
+
+- CS2104 Intro to Problem Solving in CS
+
+**Math Tutor**, Research Foundation of CUNY \hfill February 2019 – present
+
+- Help college students with homework in courses such as College Algebra, Calculus, Linear Algebra, Differential Equations, Statistics, Discrete Math, and more. 
+
+- Provide test correction assistance.
+
+- Answer questions students post on an online tutoring platform. 
+
+**Budget Analyst Intern**, Office of Brooklyn Borough President  \hfill	September 2019 - October 2020
+
+- Cleaned capital funding data and built a central database for the fiscal year 2015-2020. 
+
+- Used R to analyze capital funding data(>5GB) and produce graphs using *tidyverse* and *flexdashboard* for the past five fiscal years for administrative reviews.
+
+- Presented the five fiscal years allocation report to the Brooklyn Borough President Eric Adams. It helped the president to make better decisions on capital allocation.
+
+**Tutor**, New York Inches Tutoring Center 	\hfill December 2017 – December 2018
+
+- Assist elementary school students with homework.
+
+- Teach elementary school students Mandarin (traditional characters and proper pronunciation). 
+
+- Provide one-on-one private tutoring to students in need. 
+
+
+**Server, Cashier, Receptionist**, various restaurants \hfill August 2015 – November 2017
+
+
+
+# Community Service and Volunteer Experience
+
+**Self-Employed ACA Subsidy Calculator**, App Developer \hfill November 2019 – March 2020
+
+Mentors:
+
+1. Professor Boyan Kostadinov, Department of Mathematics, NYCCT.
+2. Samuel J. Ferguson, Courant Institute of Mathematical Sciences, NYU. 
+
+
+[**The tax calculator**](https://xiaonazhou.shinyapps.io/Obamacare_Calculator_Version_3/) is a web-based application that implements the algorithm described in [Ferguson's paper](https://arxiv.org/pdf/2008.03355.pdf). The tax calculator helps self-employed people who buy health insurance from a government exchange and it calculates the appropriate premium tax credit they are entitled to.  
+
+
+**NSF  S-STEM Scholarship**, Volunteer  \hfill February 2020
+
+Answered questions about the scholarship and encouraged students to apply at a research mixer at City Tech.
+
+
+**WiTNY Int'l Girls in ICT Day**, Volunteer  \hfill April 2019
+
+Volunteered as a mentor and shared research and undergraduate experiences with middle school students.
+
+
+# Awards
+
+1. [**Salutatorian Award**](https://drive.google.com/file/d/1kyjBZzHuZJoLkjpmwJXY3FCreK9e_pjK/view?usp=sharing) -- New York City College of Technology. \hfill Class of 2021
+
+2. [**SIAM Award**](https://drive.google.com/file/d/1oPQlZW0NmvmBBsPL99mnMeRKjtMqjfvp/view?usp=sharing) \hfill Academic year 2020–2021
+
+- In recognition of outstanding efforts and accomplishments 
+on behalf of the SIAM Chapter at City Tech.  
+
+
+3. [**Academic Excellence Award**](https://drive.google.com/file/d/1_Rtw5jhuiAtMpCsRQMaOkMNEJnM3bES8/view?usp=sharing) -- School of Art and Science, City Tech. \hfill June 2021
+4. **Recipient of National Science Foundation (NSF) Scholarship** \hfill Fall 2018 - Spring 2021 
+- For high achieving financially needy students, $3100 per semester. 
+
+5. **Dean’s List** --New York City College of Technology. \hfill 
+Academic year 2017–2021
+
+
+# Publications 
+
+1. (**Peer-reviewed research paper**) Boyan Kostadinov, Hannah Lee Pettibone, Evardra Valerie Bell, **Xiaona Zhou**, Ausra Pranevicius, Orie Thomas Shafer, Maria Paz Fernandez, *Open-source computational framework for studying Drosophila behavioral phase*, **STAR Protocols**, Volume 2, Issue 1, 2021, 100285, ISSN 2666-1667, <https://doi.org/10.1016/j.xpro.2020.100285>. 
+
+2. [*"My Continuing Journey From FuZhou to City Tech"*](https://openlab.citytech.cuny.edu/citytechwriter/files/2020/05/18-Zhou-Xiaona-Satyanand-Singh-My-Journey-Essay.pdf) City Tech Writer Volume 15, 2020. 
+
+
+# References
+References will be provided upon request.
