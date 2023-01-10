@@ -36,7 +36,7 @@ library(scales)
 
 **<span style="font-size:1em;">Virginia Tech</span>** \hfill _Blacksburg, VA_
 
-Ph.D. in Computer Science & Applications \hfill _08/2022-present_
+Ph.D. in Computer Science & Applications \hfill _August 2022-present_
 
 **<span style="font-size:1em;">Georgia Institute of Technology</span>** \hfill _Online Program_  
 Master's in Analytics, GPA: 4.0/4.0 \hfill _August 2021-December 2021(Incomplete)_
